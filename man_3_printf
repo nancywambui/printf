@@ -4,7 +4,6 @@
 .\"
 .\"
 .\"
-.TH _PRINTF "August 05 2022" "0.1" "Library functions manual"
 
 .SH NAME
 .SH ""
@@ -44,7 +43,6 @@ $ gcc -Wall -Werror -Wextra -pedantic -g -Wno-format *.c (for gdb debbuging)
 int _printf(const char *[FORMAT], ...);
 
 FORMAT is the string that takes n specifier followed by a '%'
-symbol. i.e. "Hello this is %s from %d cohort". '...' is the variadic \
 (any type of variable).
 
 .SS Example
@@ -53,11 +51,9 @@ symbol. i.e. "Hello this is %s from %d cohort". '...' is the variadic \
 
 .B Input
 .PP
-_printf("Hello this is %s from %d cohort\\n\\", 33);
 .PP
 .B Output
 .PP
-Hello this is %s from %d cohort
 .RE
 
 .SS Return Value
@@ -82,7 +78,6 @@ Current arguments handled by conversion specifiers:
 
 .IT
 .B %
-- % symbol is set without argument and conversion specification has to be'%%'.
 
 .IT
 .B c
@@ -127,8 +122,4 @@ hexadecimal preceded by \x
 .SH "AUTHORS"
 .SH ""
 
-Nicks Gitobu and Musa Parsanka
-
-.B Twitter
-.PP
-@_pronicks @musa_parsanka
+Daniel Maithya and Nancy Wambui

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _printf - is a function that selects the correct function to print.
+ * _printf - Meant to work like stdio printf.
  * @format: identifier to look for.
  * Return: the length of the string.
  */
